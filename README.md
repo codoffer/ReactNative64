@@ -3,7 +3,7 @@
 :fire: React Native with Hermes
 
 ## Enable Hermes with Android
-Edit File wtih below code - **android/app/build.gradle**
+Edit File wtih below code - **android/app/build.gradle** and clean build using **cd android && ./gradlew clean**
 
 ```
 ...
@@ -17,7 +17,7 @@ def enableHermes = project.ext.react.get("enableHermes", true);
 
 ## Enable Hermes with iOS
 
-edit **ios/Podfile** and **run pod install**
+edit **ios/Podfile** and run **pod install**
 
 ```
 use_react_native!(
